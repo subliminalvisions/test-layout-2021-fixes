@@ -2,5 +2,6 @@ import './styles.less';
 
 import modalelement from './modalelement';
 import './modal.js';
-// import './modal-styles.less';
+import './mobilemenu.js';
+
 document.body.appendChild(modalelement());

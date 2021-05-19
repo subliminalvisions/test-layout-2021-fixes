@@ -1,5 +1,4 @@
-// modal script goes here
-// console.log("modal script running here !");
+// modal script 
 export default () => {
       let testInfo = `
       <div class="modal-dialog">

@@ -27,25 +27,26 @@
     </div>
     <div class="outer-menu">
     
-      <div class="burger">
-        <input class="checkbox-toggle" type="checkbox" />
-
+        <div class="burger">
+          <input class="checkbox-toggle" type="checkbox" toggle-menu="menu-items" id="checkbox-toggle"/>
         <div class="burger_patty"></div>
         <div class="burger_patty"></div>
         <div class="burger_patty"></div>
       </div>
     
       <div class="menu">
-          <div class="nav-wrap ">
-            <ul class="nav">
+          <div class="nav-wrap">
+            <ul class="nav menu-items isHidden" id="mobile-menu">
               <li class="nav-item" ><a class="nav-link" href="#">Store</a></li>
               <li class="nav-item" ><a class="nav-link" href="#" >About Us</a></li>
-              <li class="nav-item" >
-                  <a href="#" 
+            </ul>
+            <ul class="nav last featured-item">
+                <li class="nav-item" >
+                <a href="#" 
                 class="btn primary nav-btn login open-modal " 
                 data-open="modal1">Login / Signup</a>
-            </li>
-            </ul>
+            </li> 
+    </ul>
           </div>
       </div>
 
